@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Garrett Bjerkhoel"]
   s.email       = ["me@garrettbjerkhoel.com"]
   s.homepage    = "http://github.com/dewski/json_builder"
-  s.summary     = "Reads metadata and transcodes movies."
+  s.summary     = "Ruby DSL for building JSON."
   s.description = "JSON Builder."
 
   s.required_rubygems_version = ">= 1.3.6"
@@ -21,6 +21,6 @@ Gem::Specification.new do |s|
   
   s.add_development_dependency "bundler", "~> 1.0.0"
 
-  s.files        = Dir.glob("lib/**/*") + %w(README.rdoc MIT-LICENSE)
+  s.files        = Dir.glob("lib/**/*") + %w(README.md MIT-LICENSE)
   s.require_path = 'lib'
 end
