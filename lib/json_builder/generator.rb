@@ -88,7 +88,7 @@ module JSONBuilder
           when FalseClass then 'false'
           when NilClass then 'null'
           when DateTime, Time, Date then "\"#{text.strftime('%Y-%m-%dT%H:%M:%S%z')}\""
-          when Fixnum, Bignum then text
+          when Fixnum, Bignum, Float then text
         end
       end
       
