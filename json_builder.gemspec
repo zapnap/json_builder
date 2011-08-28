@@ -16,10 +16,10 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.6"
   
-  s.add_dependency "activesupport", "~> 3.0.0"
-  s.add_dependency "actionpack", "~> 3.0.0"
+  s.add_dependency "activesupport", ">= 3.0.0"
+  s.add_dependency "actionpack", ">= 3.0.0"
   
-  s.add_development_dependency "bundler", "~> 1.0.0"
+  s.add_development_dependency "bundler", ">= 1.0.0"
 
   s.files        = Dir.glob("lib/**/*") + %w(README.md MIT-LICENSE)
   s.require_path = 'lib'
